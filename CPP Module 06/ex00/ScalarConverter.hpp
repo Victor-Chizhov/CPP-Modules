@@ -2,6 +2,7 @@
 #define SCALARCONVERTER_HPP
 
 #include <iostream>
+#include <limits>
 
 class ScalarConverter {
 
@@ -13,8 +14,10 @@ class ScalarConverter {
         static void checkLiteral(std::string& literal, std::string type);
         static int isChar(std::string& literal);
         static int isInt(std::string& literal);
+        static int isDouble(std::string& literal);
         static int isFloat(std::string& literal);
         static int checkDot(std::string& literal);
+        static void handleSpecificLiterals(std::string& literal);
 
     public:
         static void convert(std::string literal);

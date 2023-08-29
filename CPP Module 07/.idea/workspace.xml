@@ -13,8 +13,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e2b1e02-368d-42e8-aa5a-55a02817bf15" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ex00/whatever.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CPP Module 06/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CPP Module 06/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex01/iter.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex01/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +41,7 @@
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "/Users/vchizhov/Desktop/rep_for_modules/CPP Module 07",
+    "last_opened_file_path": "/Users/vchizhov/Desktop/rep_for_modules/CPP Module 07/ex01",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -49,6 +50,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ex01" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693300324016</updated>
-      <workItem from="1693300325039" duration="1093000" />
+      <workItem from="1693300325039" duration="3696000" />
     </task>
     <servers />
   </component>

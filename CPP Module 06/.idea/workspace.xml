@@ -13,10 +13,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54d9f6f8-b0c0-47c2-8fdb-c7e5cb7ef964" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ex01/Serializer.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex01/Serializer.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex01/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex01/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/ex01/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex02/A.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex02/B.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex02/Base.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex02/Base.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex02/C.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex02/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex02/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +46,7 @@
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "/Users/vchizhov/Desktop/rep_for_modules/CPP Module 06/ex01",
+    "last_opened_file_path": "/Users/vchizhov/Desktop/rep_for_modules/CPP Module 06/ex02",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -53,6 +57,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ex02" />
       <recent name="$PROJECT_DIR$/ex01" />
       <recent name="$PROJECT_DIR$/ex00" />
     </key>
@@ -68,6 +73,7 @@
       <workItem from="1693211888465" duration="1243000" />
       <workItem from="1693218859917" duration="2923000" />
       <workItem from="1693221788698" duration="11417000" />
+      <workItem from="1693293829980" duration="3626000" />
     </task>
     <servers />
   </component>

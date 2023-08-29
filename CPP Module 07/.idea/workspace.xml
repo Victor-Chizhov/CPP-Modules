@@ -13,9 +13,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e2b1e02-368d-42e8-aa5a-55a02817bf15" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ex01/iter.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex01/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex02/Array.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex02/Array.tpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex02/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex02/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex01/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ex01/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +44,7 @@
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "/Users/vchizhov/Desktop/rep_for_modules/CPP Module 07/ex01",
+    "last_opened_file_path": "/Users/vchizhov/Desktop/rep_for_modules/CPP Module 07/ex02",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -52,6 +55,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ex02" />
       <recent name="$PROJECT_DIR$/ex01" />
     </key>
   </component>
@@ -63,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693300324016</updated>
-      <workItem from="1693300325039" duration="3696000" />
+      <workItem from="1693300325039" duration="7615000" />
     </task>
     <servers />
   </component>

@@ -6,7 +6,6 @@ Span::Span() {
 
 Span::Span(unsigned int n) {
     _n = n;
-    _container(n);
 }
 
 Span::Span(const Span& copy) {
@@ -59,11 +58,8 @@ int Span::longestSpan() {
 }
 
 void Span::rangeOfIterator(std::vector<int>::iterator begin, std::vector<int>::iterator end) {
-    unsigned int remainingCapacity = _numbers.capacity() - _numbers.size();
-    unsigned int rangeSize = std::distance(begin, end);
-
-    if (rangeSize <= remainingCapacity) {
-        _numbers.insert(_numbers.end(), begin, end);
+    if (_container.size() + std::distance(begin, end) <= _n) {
+        _container.insert(_container.end(), begin, end);
     }
     else {
         throw std::runtime_error("Not enough space in Span to add the entire range");

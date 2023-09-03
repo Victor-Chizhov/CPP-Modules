@@ -11,15 +11,16 @@
 class BitcoinExchange {
 
     private:
-        std::map<std::string, float> _rate;
+        std::map<std::string, std::string> _rate;
         std::map<std::string, float> _data;
 
-        void copyInputFileInMap(std::string filename, std::map<std::string, float> &map, std::string firstString, char delimiter);
-        bool checkDateInMap(std::map<std::string, float>);
-        void convertRate(std::map<std::string, float>&, std::map<std::string, float>&);
-        bool checkKeyAndValueInMap(std::string key, float value);
+        void copyDataInMap(std::string filename, std::map<std::string, float> &map, std::string firstString, char delimiter);
+        bool checkDateInMap(std::string key);
+        void convertRate();
+        bool checkKeyAndValueInMap(std::string key, std::string value);
         bool checkFormatDate(std::string date);
         std::string searchNearDate(std::map<std::string, float> _data, std::string date);
+        void copyInputInMap(std::map<std::string, std::string>&, std::string filename);
 
     public:
         BitcoinExchange();
@@ -28,5 +29,6 @@ class BitcoinExchange {
         BitcoinExchange &operator=(const BitcoinExchange &op);
         void rate(std::string filename);
 };
+
 
 #endif

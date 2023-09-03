@@ -11,7 +11,7 @@
 class RPN {
 
     private:
-        std::stack<int> _stack;
+        std::stack<double> _stack;
         void checkExpression(std::string const &expression);
         void printResult() const;
 

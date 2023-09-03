@@ -24,9 +24,9 @@ void RPN::checkExpression(const std::string &expression) {
             if (this->_stack.size() < 2) {
                 throw std::runtime_error("Not enough values in stack");
             }
-            int a = this->_stack.top();
+            double a = this->_stack.top();
             this->_stack.pop();
-            int b = this->_stack.top();
+            double b = this->_stack.top();
             this->_stack.pop();
             if (expression[i] == '+') {
                 this->_stack.push(b + a);
@@ -36,8 +36,6 @@ void RPN::checkExpression(const std::string &expression) {
                 this->_stack.push(b * a);
             } else if (expression[i] == '/') {
                 this->_stack.push(b / a);
-            } else if (expression[i] == '%') {
-                this->_stack.push(b % a);
             }
         } else if (expression[i] >= '0' && expression[i] <= '9') {
             std::stringstream ss;

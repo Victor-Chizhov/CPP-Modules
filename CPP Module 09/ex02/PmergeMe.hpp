@@ -2,25 +2,26 @@
 #define PMERGEME_HPP
 
 #include <iostream>
-#include <string>
-#include <cmath>
-#include <sstream>
-#include <iomanip>
 #include <vector>
 #include <deque>
+#include <ctime>
 
-class PmergeMe {
+void mergeInsertSortVector(std::vector<int> &arr);
+void mergeInsertSortDeque(std::deque<int> &arr);
 
-    private:
-        PmergeMe();
-        PmergeMe(PmergeMe const &copy);
-        ~PmergeMe();
-        PmergeMe &operator=(PmergeMe const &copy);
+template <typename T>
+void push(size_t value, T &arr) {
+    arr.push_back(value);
+}
 
-    public:
-        static void MergeInsertSortVector(std::vector<size_t> &arr);
-        static void pushVector(const size_t &value, std::vector<size_t> &_vector);
-        static void printVector(std::vector<size_t> &_vector);
-};
+template <typename T>
+void print(T &arr) {
+    for (size_t i = 0; i < arr.size(); i++) {
+        std::cout << arr[i];
+        if (i < arr.size() - 1)
+            std::cout << " ";
+    }
+    std::cout << std::endl;
+}
 
 #endif

@@ -12,16 +12,15 @@
 class PmergeMe {
 
     private:
-        std::vector<size_t> _vector;
-        std::deque<size_t> _deque;
+        PmergeMe();
+        PmergeMe(PmergeMe const &copy);
+        ~PmergeMe();
+        PmergeMe &operator=(PmergeMe const &copy);
 
     public:
-        PmergeMe();
-        PmergeMe(PmergeMe const &other);
-        ~PmergeMe();
-        PmergeMe &operator=(PmergeMe const &other);
-        void MergeInsertSort(std::vector<size_t> &vector);
-        void MergeInsertSort(std::deque<size_t> &deque);
+        static void MergeInsertSortVector(std::vector<size_t> &arr);
+        static void pushVector(const size_t &value, std::vector<size_t> &_vector);
+        static void printVector(std::vector<size_t> &_vector);
 };
 
 #endif

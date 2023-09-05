@@ -6,6 +6,8 @@
 #include <deque>
 #include <ctime>
 
+void insertionSortVector(std::vector<int> &arr);
+void mergeSortVector(std::vector<int> &arr, int left, int mid, int right);
 void mergeInsertSortVector(std::vector<int> &arr);
 void mergeInsertSortDeque(std::deque<int> &arr);
 

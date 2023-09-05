@@ -7,20 +7,21 @@
 #include <algorithm>
 #include <fstream>
 #include <sstream>
+#include <cstdlib>
 
 class BitcoinExchange {
 
     private:
-        std::map<std::string, std::string> _rate;
         std::map<std::string, float> _data;
 
-        void copyDataInMap(std::string filename, std::map<std::string, float> &map, std::string firstString, char delimiter);
+        void copyDataInMap(std::string filename, std::string firstString, char delimiter);
         bool checkDateInMap(std::string key);
-        void convertRate();
-        bool checkKeyAndValueInMap(std::string key, std::string value);
+        void convertRate(std::string &line);
+        bool checkLine(std::string key, std::string value);
         bool checkFormatDate(std::string date);
-        std::string searchNearDate(std::map<std::string, float> _data, std::string date);
-        void copyInputInMap(std::map<std::string, std::string>&, std::string filename);
+        std::string searchNearDate(std::string date);
+        void openInput(std::string filename);
+        bool isValidFloat(const std::string& str);
 
     public:
         BitcoinExchange();

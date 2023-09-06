@@ -35,7 +35,7 @@ bool BitcoinExchange::checkDateInMap(std::string key) {
 }
 
 bool BitcoinExchange::checkFormatDate(std::string date) {
-    if (date.length() != 10 && date[4] != '-' && date[7] != '-')
+    if (date.length() != 10 || date[4] != '-' || date[7] != '-')
         return false;
     for (int i = 0; i < 10; i++) {
         if (i != 4 && i != 7 && !isdigit(date[i]))
